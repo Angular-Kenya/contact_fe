@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "axios": "^0.19.2",
-    "express": "^4.17.1",
     "material-ui": "^0.20.2",
     "react": "^16.11.0",
     "react-alert": "^7.0.0",
@@ -14,12 +13,10 @@
     "react-toastify": "^5.5.0"
   },
   "scripts": {
-    "start:dev": "react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "start": "node server.js",
-    "heroku-postbuild": "yarn run build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
